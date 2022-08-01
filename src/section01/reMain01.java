@@ -1,6 +1,5 @@
-package section02;
+package section01;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class reMain01 {
