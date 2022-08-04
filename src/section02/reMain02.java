@@ -3,18 +3,18 @@ package section02;
 import java.util.Scanner;
 
 public class reMain02 {
-    public static int solution(int n, int[]arr){
+    public static int solution(int n, int arr[]){
         int answer = 1;
         int max = arr[0];
-        for (int i=0; i<n; i++){
+
+        for (int i=1; i<n; i++){
             if (arr[i] > max){
-                answer++;
+                answer ++;
                 max = arr[i];
             }
         }
         return answer;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -23,6 +23,6 @@ public class reMain02 {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(solution(n , arr));
+        System.out.println(solution(n, arr));
     }
 }
