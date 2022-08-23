@@ -25,6 +25,8 @@ public class Main01 {
         }
         int m = sc.nextInt();
         int []arr2 = new int[m];
+
+
         for (int i=0; i<m; i++){
             arr2[i] = sc.nextInt();
         }
