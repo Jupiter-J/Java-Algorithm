@@ -23,3 +23,4 @@ public class N1546A {
         System.out.println(answer);
     }
 }
+
