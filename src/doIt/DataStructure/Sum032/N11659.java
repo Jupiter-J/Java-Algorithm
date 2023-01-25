@@ -9,6 +9,7 @@ public class N11659 {
         int N = sc.nextInt();
         int M = sc.nextInt();
 
+        //0번째 인덱스를 무시하기 위해서 +1
         int []A = new int[N+1];
         int []S = new int[N+1];
         for (int x=1; x<=N; x++){
