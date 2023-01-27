@@ -10,6 +10,7 @@ public class Main03 {
         String answer = "";
         int count = 0;
         char []saveWord = str.toCharArray();
+
         for (int i=0; i<str.length(); i++){
             if (saveWord[i] == ' '){
                 answer += str.substring(i);
